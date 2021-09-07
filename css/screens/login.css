@@ -1,0 +1,108 @@
+.welcome-header {
+  margin: 100px 0px;
+  text-align: center;
+}
+.welcome-header-wrap {
+  width: 503px;
+  margin: 0 auto;
+}
+.welcome-header__title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.welcome-header__title__text {
+  color: var(--cocoabrown);
+  font-size: 60px;
+}
+.welcome-header__title__image {
+  width: 50px;
+  position: absolute;
+  right: 50px;
+  top: -25px;
+}
+.welcome-header__text {
+  margin-top: 50px;
+  color:rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+}
+
+.login-wrap {
+  width: 503px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 632px) {
+  .login-wrap {
+    width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+#login-form input {
+  padding: 17px 0px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: 'Jua', sans-serif;
+  font-size: 15px;
+}
+#login-form input:focus {
+  border-color: var(--cocoagreen);
+}
+#login-form button {
+  padding: 20px 0px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--cocoabrown);
+  color: white;
+  font-family: 'Jua', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+#login-form button[type="submit"]:active {
+  background-color: var(--cocoadarkbrown);
+  color: var(--cocoadarkgreen);
+}
+
+.find-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px 0 40px;
+  text-align: center;
+  color: inherit;
+}
+.find-wrap li+li {
+  padding-left: 28px;
+}
+.find-wrap li+li::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 12px;
+  width: 1px;
+  height: 13px;
+  border-radius: .5px;
+  background-color: var(--cocoabrown);
+}
+.find-wrap li {
+  position: relative;
+}
+.find_text {
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 18px;
+}

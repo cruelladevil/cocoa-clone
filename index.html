@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoCoaTalk</title>
+    <meta name="description" content="This is a kokoatalk-clone website. Experience chatting app design here.">
+    <link rel="shortcut icon" href="img/cocoalogo.ico/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time"></span>
+      </div>
+      <div class="status-bar__column">
+        <img class="status-bar__signal" src="img/signal.svg">
+        <img class="status-bar__wifi" src="img/wifi.svg">
+        <img class="status-bar__battery" src="img/battery.svg">
+      </div>
+    </div>
+    <header class="welcome-header">
+      <div class="welcome-header-wrap">
+        <div class="welcome-header__title">
+          <h1 class="welcome-header__title__text">COCOATALK</h1>
+          <img class="welcome-header__title__image" src="img/cocoalogo.png">
+        </div>
+        <p class="welcome-header__text">
+          코코아톡 계정이 있으시다면,<br>이메일 또는 전화번호로 로그인하세요.
+        </p>
+      </div>
+    </header>
+    <div class="container">
+      <div class="login-wrap">
+        <form id="login-form" autocomplete="off">
+          <input type="text" placeholder="이메일 또는 전화번호">
+          <input type="password" placeholder="비밀번호" maxlength="16">
+          <button type="submit">로그인</button>
+        </form>
+        <ul class="find-wrap">
+          <li>
+            <a href="#" class="find_text">비밀번호 찾기</a>
+          </li>
+          <li>
+            <a href="#" class="find_text">이메일 찾기</a>
+          </li>
+          <li>
+            <a href="#" class="find_text">회원가입</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="app/clock.js"></script>
+  </body>
+</html>
