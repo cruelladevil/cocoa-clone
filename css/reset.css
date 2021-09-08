@@ -45,9 +45,6 @@ table {
 input:focus {
 	outline: none;
 }
-input::placeholder {
-	font-family: 'Jua', sans-serif;
-}
 
 a {
 	color: inherit;

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoCoaTalk</title>
+    <meta name="description" content="This is a kokoatalk-clone website. Experience chatting app design here.">
+    <link rel="shortcut icon" href="img/cocoalogo.ico/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time"></span>
+      </div>
+      <div class="status-bar__column">
+        <img class="status-bar__signal" src="img/status-bar/signal.svg">
+        <img class="status-bar__wifi" src="img/status-bar/wifi.svg">
+        <img class="status-bar__battery" src="img/status-bar/battery.svg">
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">친구</h1>
+      <div class="screen-header__icons">
+        <img src="img/screen-header/search.svg">
+        <img src="img/screen-header/music.svg">
+        <img src="img/screen-header/cog.svg">
+      </div>
+    </header>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar user-component__avatar-large" src="img/avatar/jungmin.jpg">
+          <div class="user-component__text">
+            <h4 class="user-component__title">정민</h4>
+            <h6 class="user-component__subtitle">FrontEnd Study</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__header">
+          <span class="friends-screen__header__text">채널</span>
+          <img class="frineds-screen__shevron shevron-up" src="/img/friends-screen-header/chevron-up.svg">
+          <img class="frineds-screen__shevron shevron-down" hidden src="/img/friends-screen-header/chevron-down.svg">
+        </div>
+        <div class="user-component-wrap">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img class="user-component__avatar" src="img/avatar/oliveyoung.jpg">
+              <div class="user-component__text">
+                <h4 class="user-component__title">올리브영</h4>
+                <h6 class="user-component__subtitle">올영 핫 세일 (~ 09/20)</h6>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img class="user-component__avatar" src="img/avatar/burgerking.jpg">
+              <div class="user-component__text">
+                <h4 class="user-component__title">버거킹</h4>
+                <h6 class="user-component__subtitle">Taste is King! 버거킹!</h6>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img class="user-component__avatar" src="img/avatar/upbit.jpg">
+              <div class="user-component__text">
+                <h4 class="user-component__title">업비트</h4>
+                <h6 class="user-component__subtitle">글로벌 표준 디지털 자산 거래소</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__friends">
+        <div class="friends-screen__header">
+          <span class="friends-screen__header__text">친구</span>
+          <span class="friends-screen__header__number"></span>
+          <img class="frineds-screen__shevron shevron-up" src="/img/friends-screen-header/chevron-up.svg">
+          <img class="frineds-screen__shevron shevron-down" hidden src="/img/friends-screen-header/chevron-down.svg">
+        </div>
+        <div class="user-component-wrap">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img class="user-component__avatar" src="img/avatar/defaultavatar.jpg">
+              <div class="user-component__text">
+                <h4 class="user-component__title">Jeong</h4>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img class="user-component__avatar" src="img/avatar/defaultavatar.jpg">
+              <div class="user-component__text">
+                <h4 class="user-component__title">Min</h4>
+                <h6 class="user-component__subtitle">In the end, I'm winner!</h6>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img class="user-component__avatar" src="img/avatar/yang.jpg">
+              <div class="user-component__text">
+                <h4 class="user-component__title">Yang</h4>
+                <h6 class="user-component__subtitle">Best FrontEnd Engineer</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <div class="user-component__music">
+                <span class="user-component__music__text">Next Level - aespa</span>
+                <img class="user-component__music__image" src="img/avatar/play.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="navigation-bar">
+      <ul class="navigation-bar__list">
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="friends.html">
+            <img class="navigation-bar__image" src="img/navigation-bar/user-filled.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="#">
+            <span class="navigation-bar__notification-number">1</span>
+            <img class="navigation-bar__image" src="img/navigation-bar/message.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="#">
+            <img class="navigation-bar__image" src="img/navigation-bar/search.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="#">
+            <span class="navigation-bar__notification-dot"></span>
+            <img class="navigation-bar__image" src="img/navigation-bar/ellipsis.svg">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="app/clock.js"></script>
+    <script src="app/shevron.js"></script>
+  </body>
+</html>
