@@ -1,0 +1,53 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons__image {
+  width: 50px;
+  height: 50px;
+}
+.find-icons__text {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.find-screen__recommand-friends__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.openchat__text {
+  margin-left: 0;
+}
+.openchat__status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.openchat__status span{
+  position: relative;
+}
+.openchat__status h6+span::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  width: 1px;
+  height: 13px;
+  border-radius: .5px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.openchat__active {
+  color: violet;
+  padding-left: 15px;
+}
