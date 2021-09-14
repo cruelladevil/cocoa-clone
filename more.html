@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoCoaTalk</title>
+    <meta name="description" content="This is a kokoatalk-clone website. Experience chatting app design here.">
+    <link rel="shortcut icon" href="img/cocoalogo.ico/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time"></span>
+      </div>
+      <div class="status-bar__column">
+        <img class="status-bar__signal" src="img/status-bar/signal.svg">
+        <img class="status-bar__wifi" src="img/status-bar/wifi.svg">
+        <img class="status-bar__battery" src="img/status-bar/battery.svg">
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">더보기</h1>
+      <div class="screen-header__icons">
+        <img src="img/screen-header/search.svg">
+        <img src="img/screen-header/music.svg">
+        <img src="img/screen-header/cog.svg">
+      </div>
+    </header>
+    <div class="wallet">
+      <div class="wallet__header">
+        <div class="wallet__header__title">
+          <span class="wallet__header__title__text">지갑</span>
+          <img class="wallet__header__title__image" src="img/main-screen-header/chevron-right.svg">
+        </div>
+        <div class="wallet__header__subtitle">
+          <div class="wallet__header__subtitle">
+            <img class="wallet__header__subtitle__image" src="img/wallet/securityshield.svg">
+            <span class="wallet__header__subtitle__text">인증서</span>
+          </div>
+          <div class="wallet__header__subtitle">
+            <img class="wallet__header__subtitle__image" src="img/wallet/qrcreate.svg">
+            <span class="wallet__header__subtitle__text">QR체크인</span>
+          </div>
+        </div>
+      </div>
+      <div class="wallet__cocoapay">
+        <div class="wallet__cocoapay__title">
+          <img class="wallet__cocoapay__title__image" src="img/wallet/message-filled.svg">
+          <span class="wallet__cocoapay__title__text">pay</span>
+        </div>
+        <span class="wallet__cocoapay__holdingamount">31,453,274,520원</span>
+      </div>
+      <div class="wallet__content">
+        <div class="wallet__content-column">
+          <span>송금</span>
+          <span>결제</span>
+          <span>자산</span>
+        </div>
+        <div class="wallet__content-column">
+          <img class="wallet__content__image" src="img/wallet/shoppingcart.svg">
+          <span class="wallet__content__text">구매내역</span>
+        </div>
+      </div>
+    </div>
+    <main class="main-screen">
+      <div class="more-icons">
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/mail.svg">
+          <span class="more-icons__text">메일</span>
+        </div>
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/calendar.svg">
+          <span class="more-icons__text">캘린더</span>
+        </div>
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/hanger.svg">
+          <span class="more-icons__text">패션</span>
+        </div>
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/gift.svg">
+          <span class="more-icons__text">선물하기</span>
+        </div>
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/cutlery.svg">
+          <span class="more-icons__text">주문하기</span>
+        </div>
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/game.svg">
+          <span class="more-icons__text">게임</span>
+        </div>
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/brush.svg">
+          <span class="more-icons__text">테마</span>
+        </div>
+        <div class="more-icons__icon">
+          <img class="more-icons__image" src="img/more-screen/menu.svg">
+          <span class="more-icons__text">전체보기</span>
+        </div>
+      </div>
+      <div class="more-screen__suggestions">
+        <div class="main-screen__header">
+          <span class="main-screen__header__text">코코아 앱</span>
+        </div>
+        <p class="more-screen__suggestions__text">추가 앱이 없습니다.</p>
+      </div>
+    </main>
+    <nav class="navigation-bar">
+      <ul class="navigation-bar__list">
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="friends.html">
+            <img class="navigation-bar__image" src="img/navigation-bar/user.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="chats.html">
+            <span class="navigation-bar__notification-number">1</span>
+            <img class="navigation-bar__image" src="img/navigation-bar/message.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="find.html">
+            <img class="navigation-bar__image" src="img/navigation-bar/search.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="more.html">
+            <span class="navigation-bar__notification-dot"></span>
+            <img class="navigation-bar__image" src="img/navigation-bar/ellipsis-filled.svg">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="app/clock.js"></script>
+  </body>
+</html>

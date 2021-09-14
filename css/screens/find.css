@@ -26,6 +26,11 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
+.openchat {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 0;
+  padding: 10px 0;
+}
 .openchat__text {
   margin-left: 0;
 }
@@ -50,4 +55,23 @@
 .openchat__active {
   color: violet;
   padding-left: 15px;
+}
+
+.openchat__avartar-wrap {
+  position: relative;
+}
+.openchat__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+.openchat__like-count {
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 8px;
+  border-radius: 10px;
 }
