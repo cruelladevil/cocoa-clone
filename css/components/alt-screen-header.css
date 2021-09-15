@@ -1,0 +1,21 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px var(--horizontal-space);
+}
+.alt-header__column:first-child {
+  width: 35%;
+}
+.alt-header__column:nth-child(2) {
+  width: 30%;
+  text-align: center;
+}
+.alt-header__column:last-child {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header__column:last-child img+img {
+  margin-left: 15px;
+}

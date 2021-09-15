@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoCoaTalk</title>
+    <meta name="description" content="This is a kokoatalk-clone website. Experience chatting app design here.">
+    <link rel="shortcut icon" href="img/cocoalogo.ico/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time"></span>
+      </div>
+      <div class="status-bar__column">
+        <img class="status-bar__signal" src="img/status-bar/signal.svg">
+        <img class="status-bar__wifi" src="img/status-bar/wifi.svg">
+        <img class="status-bar__battery" src="img/status-bar/battery.svg">
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <img src="img/main-screen-header/chevron-left.svg">
+      </div>
+      <div class="alt-header__column">
+        <h1 class="screen-header__title">설정</h1>
+      </div>
+      <div class="alt-header__column">
+        <img src="img/screen-header/search.svg">
+      </div>
+    </header>
+    <main class="main-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/megaphone.svg">
+          <span class="settings__setting-text">공지사항</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/flask.svg">
+          <span class="settings__setting-text">실험실</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/information.svg">
+          <span class="settings__setting-text">버전정보</span>
+        </li>
+      </ul>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/megaphone.svg">
+          <span class="settings__setting-text">개인/보안</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/bell.svg">
+          <span class="settings__setting-text">알림</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/user.svg">
+          <span class="settings__setting-text">친구</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/message.svg">
+          <span class="settings__setting-text">채팅</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/music.svg">
+          <span class="settings__setting-text">음악</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/brush.svg">
+          <span class="settings__setting-text">테마</span>
+        </li>
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/ellipsis.svg">
+          <span class="settings__setting-text">기타</span>
+        </li>
+      </ul>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <img class="settings__setting-icon" src="img/settings-screen/question.svg">
+          <span class="settings__setting-text">고객센터/도움말</span>
+        </li>
+      </ul>
+    </main>
+    <nav class="navigation-bar">
+      <ul class="navigation-bar__list">
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="friends.html">
+            <img class="navigation-bar__image" src="img/navigation-bar/user.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="chats.html">
+            <span class="navigation-bar__notification-number">1</span>
+            <img class="navigation-bar__image" src="img/navigation-bar/message.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="find.html">
+            <img class="navigation-bar__image" src="img/navigation-bar/search.svg">
+          </a>
+        </li>
+        <li class="navigation-bar__btn">
+          <a class="navigation-bar__link" href="more.html">
+            <span class="navigation-bar__notification-dot"></span>
+            <img class="navigation-bar__image" src="img/navigation-bar/ellipsis-filled.svg">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="app/clock.js"></script>
+  </body>
+</html>

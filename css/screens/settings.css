@@ -1,0 +1,22 @@
+.main-screen ul+ul {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.settings-list li+li {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.settings__setting-icon {
+  height: 20px;
+}
+.settings__setting-text {
+  margin-left: 15px;
+}
