@@ -9,9 +9,19 @@
 
 .settings__setting {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 0;
   font-size: 18px;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+.settings__setting-column:nth-child(2) {
+  opacity: 0.6;
+  margin-right: 10px;
 }
 
 .settings__setting-icon {

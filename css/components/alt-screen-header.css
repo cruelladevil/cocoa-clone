@@ -4,6 +4,7 @@
   align-items: center;
   padding: 15px var(--horizontal-space);
 }
+
 .alt-header__column:first-child {
   width: 35%;
 }
@@ -16,6 +17,11 @@
   display: flex;
   justify-content: flex-end;
 }
-.alt-header__column:last-child img+img {
+
+.alt-header__column img {
+  height: 25px;
+}
+.alt-header__column:last-child a+a {
   margin-left: 15px;
 }
+

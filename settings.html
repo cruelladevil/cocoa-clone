@@ -21,64 +21,96 @@
     </div>
     <header class="alt-header">
       <div class="alt-header__column">
-        <img src="img/main-screen-header/chevron-left.svg">
+        <a class="header__link" href="javascript:history.back()">
+          <img src="img/main-screen-header/chevron-left.svg">
+        </a>
       </div>
       <div class="alt-header__column">
         <h1 class="screen-header__title">설정</h1>
       </div>
       <div class="alt-header__column">
-        <img src="img/screen-header/search.svg">
+        <a class="header__link" href="#">
+          <img src="img/screen-header/search.svg">
+        </a>
       </div>
     </header>
     <main class="main-screen">
       <ul class="settings-list">
         <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/megaphone.svg">
-          <span class="settings__setting-text">공지사항</span>
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/megaphone.svg">
+            <span class="settings__setting-text">공지사항</span>
+          </div>
         </li>
         <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/flask.svg">
-          <span class="settings__setting-text">실험실</span>
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/flask.svg">
+            <span class="settings__setting-text">실험실</span>
+          </div>
         </li>
         <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/information.svg">
-          <span class="settings__setting-text">버전정보</span>
-        </li>
-      </ul>
-      <ul class="settings-list">
-        <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/megaphone.svg">
-          <span class="settings__setting-text">개인/보안</span>
-        </li>
-        <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/bell.svg">
-          <span class="settings__setting-text">알림</span>
-        </li>
-        <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/user.svg">
-          <span class="settings__setting-text">친구</span>
-        </li>
-        <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/message.svg">
-          <span class="settings__setting-text">채팅</span>
-        </li>
-        <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/music.svg">
-          <span class="settings__setting-text">음악</span>
-        </li>
-        <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/brush.svg">
-          <span class="settings__setting-text">테마</span>
-        </li>
-        <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/ellipsis.svg">
-          <span class="settings__setting-text">기타</span>
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/information.svg">
+            <span class="settings__setting-text">버전정보</span>
+          </div>
+          <div class="settings__setting-column">
+            <span class="settings__setting-text">최신 버전</span>
+          </div>
         </li>
       </ul>
       <ul class="settings-list">
         <li class="settings__setting">
-          <img class="settings__setting-icon" src="img/settings-screen/question.svg">
-          <span class="settings__setting-text">고객센터/도움말</span>
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/lock.svg">
+            <span class="settings__setting-text">개인/보안</span>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/bell.svg">
+            <span class="settings__setting-text">알림</span>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/user.svg">
+            <span class="settings__setting-text">친구</span>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/message.svg">
+            <span class="settings__setting-text">채팅</span>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/music.svg">
+            <span class="settings__setting-text">음악</span>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/brush.svg">
+            <span class="settings__setting-text">테마</span>
+          </div>
+          <div class="settings__setting-column">
+            <span class="settings__setting-text">코코아톡 모드</span>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/ellipsis.svg">
+            <span class="settings__setting-text">기타</span>
+          </div>
+        </li>
+      </ul>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <img class="settings__setting-icon" src="img/settings-screen/question.svg">
+            <span class="settings__setting-text">고객센터/도움말</span>
+          </div>
         </li>
       </ul>
     </main>

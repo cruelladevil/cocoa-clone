@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoCoaTalk</title>
+    <meta name="description" content="This is a kokoatalk-clone website. Experience chatting app design here.">
+    <link rel="shortcut icon" href="img/cocoalogo.ico/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__time"></span>
+      </div>
+      <div class="status-bar__column">
+        <img class="status-bar__signal" src="img/status-bar/signal.svg">
+        <img class="status-bar__wifi" src="img/status-bar/wifi.svg">
+        <img class="status-bar__battery" src="img/status-bar/battery.svg">
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a class="header__link" href="javascript:history.back()">
+          <img src="img/main-screen-header/chevron-left.svg">
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="screen-header__title">더워얌</h1>
+      </div>
+      <div class="alt-header__column">
+        <a class="header__link" href="find.html">
+          <img src="img/screen-header/search.svg">
+        </a>
+        <a class="header__link" href="#">
+          <img src="img/screen-header/menu.svg">
+        </a>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        <span>2021년 9월 23일 목요일</span>
+      </div>
+      <div class="message-row">
+        <img src="img/avatar/defaultavatar.jpg">
+        <div class="message-row__content">
+          <span class="message__author">Min</span>
+          <div class="message__info">
+            <div class="message__text">원신은 컨트롤 겜이지</div>
+            <span class="message__time">14:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="img/avatar/defaultavatar.jpg">
+        <div class="message-row__content">
+          <span class="message__author">Jeong</span>
+          <div class="message__info">
+            <div class="message__text">원알못;</div>
+            <span class="message__time">14:28</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="img/avatar/yang.jpg">
+        <div class="message-row__content">
+          <span class="message__author">Yang</span>
+          <div class="message__info">
+            <div class="message__text">36개월간 11% 완납바랍니다.</div>
+            <span class="message__time">14:28</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message__info">
+          <div class="message__text">킹받네</div>
+          <span class="message__time">14:30</span>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <img src="img/reply/plus.svg">
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message">
+        <img src="img/reply/smile.svg">
+        <button>
+          <img src="img/reply/arrow-up.svg">
+        </button>
+      </div>
+    </form>
+    <script src="app/clock.js"></script>
+  </body>
+</html>
