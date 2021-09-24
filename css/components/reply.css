@@ -20,6 +20,7 @@
   width: 92%;
   position: relative;
 }
+
 .reply__column input {
   height: 30px;
   width: 100%;
@@ -28,17 +29,23 @@
   border-radius: 20px;
 }
 
+.reply__column img {
+  height: 22px;
+}
+
 .reply__column:last-child > img,
 .reply__column:last-child button {
   position: absolute;
   right: 0;
-  top: 5px;
-}
-.reply__column:last-child > img {
-  right: 50px;
   top: 6px;
-  height: 22px;
 }
+.reply__column:last-child .reply__smile {
+  right: 45px;
+}
+.reply__column:last-child .reply__hash {
+  right: 10px;
+}
+
 .reply__column:last-child button {
   width: 30px;
   height: 30px;
@@ -49,11 +56,14 @@
   border-radius: 50%;
   background-color: var(--yellow);
   cursor: pointer;
+  visibility: hidden;
 }
+
+.reply:focus-within .reply__column button {
+  visibility: visible;
+}
+
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
-}
-.reply__column img {
-  height: 25px;
 }

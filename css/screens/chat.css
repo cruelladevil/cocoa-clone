@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: rgb(166, 211, 230);
-  height: 1100vh;
+  height: 500vh;
 }
 
 #chat-screen .status-bar,
@@ -10,6 +10,7 @@
   box-sizing: border-box;
   top: 0;
   background-color: rgba(166, 211, 230, 0.6);
+  z-index: 1;
 }
 #chat-screen .alt-header {
   top: 47px;

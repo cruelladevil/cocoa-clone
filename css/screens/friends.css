@@ -1,1 +1,15 @@
-/* doesn't have any styles yet */
+@keyframes appearUserComponent {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.friends-screen__channel .user-component-wrap,
+.friends-screen__friends .user-component-wrap {
+  animation: appearUserComponent 1s ease-in-out;
+}
