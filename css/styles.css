@@ -12,6 +12,7 @@
 @import "components/wallet.css";
 @import "components/alt-screen-header.css";
 @import "components/reply.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";
