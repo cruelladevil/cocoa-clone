@@ -8,6 +8,8 @@
 .welcome-header__title {
   display: flex;
   justify-content: center;
+}
+.welcome-header__title-wrap {
   position: relative;
 }
 .welcome-header__title__text {
@@ -17,7 +19,7 @@
 .welcome-header__title__image {
   width: 50px;
   position: absolute;
-  right: 50px;
+  right: -42px;
   top: -25px;
 }
 .welcome-header__text {
@@ -27,16 +29,11 @@
 }
 
 .login-wrap {
-  width: 503px;
+  width: 100%;
+  padding: 0 30px;
   margin: 0 auto;
+  box-sizing: border-box;
   text-align: center;
-}
-@media (max-width: 632px) {
-  .login-wrap {
-    width: 100%;
-    padding: 0 60px;
-    box-sizing: border-box;
-  }
 }
 
 #login-form {
